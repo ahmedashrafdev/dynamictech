@@ -1,0 +1,32 @@
+.service-icon{
+    width:100% !important;
+    font-size:40px ;
+    color:var(--primary)
+  }
+  .info-box-item:hover .service-icon{
+    color :var(--secondary);
+  }
+  .client-logo-item-div{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:130px
+  }
+  .client-logo-item-div img{
+    width:70% !important;
+  }
+
+  .our-clients .client-logo-item-div {
+      height:100%;
+      cursor: pointer;
+  }
+
+  .our-clients .client-logo-item-div img {
+    width:100%;
+    padding:50px;
+    opacity: .5;
+    transition: all .3s;
+}
+.client-logo-item-div:hover img{
+    opacity: 1;
+}
